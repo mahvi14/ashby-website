@@ -46,7 +46,7 @@ const ContactForm = () => {
             message,
             title: `Free Consultation Request - ${name || "New Student Inquiry"}`,
             reply_to: email,
-            to_email: "Ashbyeducationservices@gmail.com",
+            to_email: "ashbyeducationservices@gmail.com",
           },
         }),
       });

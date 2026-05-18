@@ -40,9 +40,9 @@ const Footer = () => {
         <div>
           <h4 className="text-white text-sm uppercase tracking-[0.2em] mb-4">Contact</h4>
           <ul className="space-y-3 text-sm text-white/70">
-            <li className="flex items-start gap-3"><Phone size={16} className="text-[hsl(var(--teal))] mt-0.5" /> +93131256007 / +92719227429</li>
-            <li className="flex items-start gap-3"><Mail size={16} className="text-[hsl(var(--teal))] mt-0.5" /> Ashbyeducationservices@gmail.com</li>
-            <li className="flex items-start gap-3"><MapPin size={16} className="text-[hsl(var(--teal))] mt-0.5" /> Office 206,Commericial Building 45-C,Lane 10,Bukhari Commercial Phase 6,DHA</li>
+            <li className="flex items-start gap-3"><Phone size={16} className="text-[hsl(var(--teal))] mt-0.5" /> +93131256007 / +923719227429</li>
+            <li className="flex items-start gap-3"><Mail size={16} className="text-[hsl(var(--teal))] mt-0.5" /> ashbyeducationservices@gmail.com</li>
+            <li className="flex items-start gap-3"><MapPin size={16} className="text-[hsl(var(--teal))] mt-0.5" /> Office 206,Commericial Building 45-C,Lane 10,Bukhari Commercial Phase 6,DHA,karachi</li>
           </ul>
         </div>
 

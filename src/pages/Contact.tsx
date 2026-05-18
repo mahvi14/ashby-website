@@ -6,7 +6,7 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 const Contact = () => {
   const officeMapQuery = encodeURIComponent(
-    "Office 206, Commericial Building 45-C, Lane 10, Bukhari Commercial Phase 6, DHA, Karachi, Pakistan",
+    "Office 206,Commericial Building 45-C,Lane 10,Bukhari Commercial Phase 6,DHA,karachi",
   );
 
   return (
@@ -34,10 +34,10 @@ const Contact = () => {
               <p className="text-foreground/70 mt-3 text-sm leading-relaxed">Prefer to talk? Our counselors are available Monday through Saturday.</p>
             </div>
             {[
-              { i: Phone, t: "Phone", d: "+93131256007 / +92719227429" },
-              { i: Mail, t: "Email", d: "Ashbyeducationservices@gmail.com" },
-              { i: MapPin, t: "Office", d: "Office 206,Commericial Building 45-C,Lane 10,Bukhari Commercial Phase 6,DHA" },
-              { i: Clock, t: "Hours", d: "Mon – Sat · 9:00 AM – 7:00 PM" },
+              { i: Phone, t: "Phone", d: "+93131256007 / +923719227429" },
+              { i: Mail, t: "Email", d: "ashbyeducationservices@gmail.com" },
+              { i: MapPin, t: "Office", d: "Office 206,Commericial Building 45-C,Lane 10,Bukhari Commercial Phase 6,DHA,karachi" },
+              { i: Clock, t: "Hours", d: "Mon – Sat · 10:00 AM – 6:30 PM" },
             ].map(({ i: Icon, t, d }) => (
               <div key={t} className="flex gap-4 p-5 bg-secondary border border-border rounded">
                 <div className="w-10 h-10 grid place-items-center rounded bg-white border border-border flex-shrink-0">

@@ -79,12 +79,12 @@ const Index = () => {
       ...(siteUrl ? { url: siteUrl } : {}),
       description:
         "Study abroad consultancy providing admissions, visa, scholarship, and pre-departure support for students targeting the UK, USA, Australia, and Germany.",
-      email: "Ashbyeducationservices@gmail.com",
-      telephone: "+93131256007",
+      email: "ashbyeducationservices@gmail.com",
+      telephone: "+93131256007, +923719227429",
       address: {
         "@type": "PostalAddress",
         streetAddress:
-          "Office 206,Commericial Building 45-C,Lane 10,Bukhari Commercial Phase 6,DHA",
+          "Office 206,Commericial Building 45-C,Lane 10,Bukhari Commercial Phase 6,DHA,karachi",
       },
       areaServed: ["United Kingdom", "United States", "Australia", "Germany"],
     },
