@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Mail, Phone, MapPin, Instagram, Linkedin } from "lucide-react";
+import { Facebook, Mail, Phone, MapPin, Instagram, Linkedin } from "lucide-react";
 import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
@@ -50,6 +50,11 @@ const Footer = () => {
           <h4 className="text-white text-sm uppercase tracking-[0.2em] mb-4">Follow</h4>
           <div className="flex gap-3">
             {[
+              {
+                href: "https://www.facebook.com/share/1EUehraFhV/?mibextid=wwXIfr",
+                label: "Facebook",
+                Icon: Facebook,
+              },
               {
                 href: "https://www.instagram.com/ashbyeducationservices?igsh=OHh2cHdpcmNiNnpq",
                 label: "Instagram",
